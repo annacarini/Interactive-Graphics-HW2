@@ -1,4 +1,8 @@
-"use strict";
+import { initShaders } from './Common/initShaders.js';
+import { mat2, mat3, mat4, vec2, vec3, vec4,
+    perspective, lookAt, subtract, cross, flatten,
+    mult, translate, scale, rotate
+ } from'./Common/MVnew.js'
 
 var canvas;
 var gl;
